@@ -96,13 +96,13 @@ login_already_added = Label(text="Login already added", font=(FONT_NAME, 12), fg
 #Entries
 website_entry = Entry(width=70)
 website_entry.focus()
-website_entry.insert(0, "www.amazon.com")
+#website_entry.insert(0, "www.amazon.com")
 website_entry.bind("<KeyRelease>", func = lambda event : on_entry_change(event, website_entry, login_added))
 website_entry.bind("<KeyRelease>", func = lambda event : on_entry_change(event, website_entry, login_already_added))
 website_entry.grid(column=1, row=1, columnspan=2, sticky="w")
 
 email_entry = Entry(width=70)
-email_entry.insert(0, "zerfaouiabdallah@gmail.com")
+email_entry.insert(0, "YourEmailAddress@gmail.com")
 email_entry.bind("<KeyRelease>", func = lambda event : on_entry_change(event, email_entry, login_added))
 email_entry.bind("<KeyRelease>", func = lambda event : on_entry_change(event, email_entry, login_already_added))
 email_entry.grid(column=1, row=2, columnspan=2, sticky="w")
