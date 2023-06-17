@@ -33,7 +33,7 @@ To run this application, ensure you have the following installed:
 3. Click the "Add" button to save the login details. A confirmation message will be displayed if the login is successfully added.
 4. If the login details already exist in the file, an error message will be displayed.
 5. To generate a random password, click the "Generate" button.
-6. To clear the added/already added message, simply delete the contents of the respective field.
+6. To clear the added/already added message, simply delete one of the fields.
 
 ## Contributions
 
